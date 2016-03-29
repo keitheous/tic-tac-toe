@@ -1,0 +1,42 @@
+body {
+  background-color: #FAFAD2;
+  max-width: 600px;
+  margin: 0px;
+  padding: 0px;
+}
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+li {
+  border-style: groove;
+  min-height: 150px;
+  list-style-type: none;
+  color: white;
+
+}
+.container{
+  /*lets fill this bit up later - centering*/
+}
+.box1 {
+  background-color: #F0F8FF;
+  width: 30%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.box2{
+  background-color: #FFDAB9;
+  width: 30%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+.box3{
+  background-color: #FAEBD7;
+  width: 30%;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
