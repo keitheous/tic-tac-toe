@@ -4,31 +4,51 @@
   <meta charset="UTF-8">
   <title>Game</title>
   <link rel="stylesheet" href="game.css">
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 </head>
 <body>
+  <p id="broadcast" style="color:red;"><br></p>
+  <div class="header">
+    <div id="header1">
+      Wins : <span id="winsPlayer1">0</span><br>
+      Name : <input id="player1" type="text" placeholder="Player One">
+    </div>
+
+    <div id="header3">
+      <button id="newBtn">New Round</button>
+      <button id="clrBtn">New Game</button>
+      <strong>Vs.</strong><br>
+    </div>
+
+    <div id="header2">
+      Wins : <span id="winsPlayer2">0</span><br>
+      Name : <input id="player2" type="text" placeholder="Player Two">
+    </div>
+
+    </div>
   <div class="container">
     <div class="box1">
     <ul>
-      <li id="r1c1">row1</li>
-      <li id="r2c1">row2</li>
-      <li id="r3c1">row3</li>
+      <li id="r1c1">.</li>
+      <li id="r2c1">.</li>
+      <li id="r3c1">.</li>
     </ul>
     </div>
     <div class="box2">
     <ul>
-      <li id="r1c2">row1</li>
-      <li id="r2c2">row2</li>
-      <li id="r3c2">row3</li>
+      <li id="r1c2">.</li>
+      <li id="r2c2">.</li>
+      <li id="r3c2">.</li>
     </ul>
     </div>
     <div class="box3">
     <ul>
-      <li id="r1c3">row1</li>
-      <li id="r2c3">row2</li>
-      <li id="r3c3">row3</li>
+      <li id="r1c3">.</li>
+      <li id="r2c3">.</li>
+      <li id="r3c3">.</li>
     </div>
     </ul>
   </div>
-    <script src="game.js"></script>
+  <script src="game.js"></script>
 </body>
 </html>
