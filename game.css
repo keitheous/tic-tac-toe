@@ -8,11 +8,17 @@ body {
   margin: 0px 0px;
 }
 
+
 #broadcast{
-  padding: 0px;
+  padding: 10px;
   line-height: 20px;
   margin: 0px;
   font-size: 20px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  width: 380px;
+  margin: auto auto;
+
 }
 ul {
   padding: 0px;
@@ -21,6 +27,14 @@ ul {
 li {
   border-style: groove;
   list-style-type: none;
+}
+.title {
+  background-color: #ffffff;
+  opacity: 0.9;
+  width: 400px;
+  margin: auto auto;
+  text-height: 10px;
+  padding-top: -30px;
 }
 .header {
   /*background-color: tomato;*/
@@ -47,6 +61,19 @@ li {
   display: inline-block;
   text-align: center;
 }
+#header1 input[type="text"]{
+  font-size: 10px;
+  font-family: 'Pacifico', cursive;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+#header2 input[type="text"]{
+  font-size: 10px;
+  font-family: 'Pacifico', cursive;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+
 #broacast{
   background-color: red;
 }
