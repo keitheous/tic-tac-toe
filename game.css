@@ -28,14 +28,7 @@ li {
   border-style: groove;
   list-style-type: none;
 }
-.title {
-  background-color: #ffffff;
-  opacity: 0.9;
-  width: 400px;
-  margin: auto auto;
-  text-height: 10px;
-  padding-top: -30px;
-}
+
 .header {
   /*background-color: tomato;*/
   margin: 0 auto;
